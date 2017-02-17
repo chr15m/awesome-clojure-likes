@@ -1,5 +1,7 @@
 Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-like programming languages.
 
+[Contribute](./contributing.md).
+
 ## Official variants
 
  * [Clojure](https://clojure.org/) on the JVM.
