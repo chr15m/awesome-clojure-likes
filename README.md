@@ -70,7 +70,6 @@ Notable/usable implementations follow.
 
 > A Delightfully Diminutive Lisp. Implemented in < 1 KB of JavaScript with JSON source.
 
- * Implemented in Javascript.
  * [Try it](https://kanaka.github.io/miniMAL/).
  * Uses JSON syntax.
 
