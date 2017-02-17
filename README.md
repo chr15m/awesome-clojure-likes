@@ -4,7 +4,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 ## Official variants
 
- * [Clojure](https://clojure.org/) on the JVM.
+ * [Clojure](https://clojure.org/) on the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine).
  * [Clojure CLR](https://clojure.org/about/clojureclr) on the [Common Language Runtime](https://en.wikipedia.org/wiki/Common_Language_Runtime).
  * [ClojureScript](https://github.com/clojure/clojurescript) in the browser.
 
