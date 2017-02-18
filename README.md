@@ -35,6 +35,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Restricted subset of Clojure.
  * Embedded systems focus.
 
+### [ki](http://ki-lang.org/)
+
+> A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
+
+ * Implemented in Javascript
+ * Intermix LISP code with JavaScript.
+
 ### [Wisp](https://github.com/Gozala/wisp)
 
 > A little Clojure-like LISP in JavaScript.
