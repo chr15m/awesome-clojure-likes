@@ -19,6 +19,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * All of available Python tooling available.
  * Actively developed.
 
+### [Lux](https://github.com/LuxLang/lux)
+
+> A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
+
+ * Implemented in Clojure.
+ * Inspied by Haskell, Clojure, ML.
+ * Actively developed.
+
 ### [Pixie](https://github.com/pixie-lang/pixie)
 
 > A small, fast, native lisp with "magical" powers.
