@@ -49,6 +49,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Self hosted.
 
+### [Carbonate](https://github.com/7even/carbonate)
+
+> Clojure-inspired Lisp that transpiles to Ruby.
+
+ * Implemented in Ruby.
+ * tries to cover Ruby's functionality with more concise code forms.
+
 ### [slisp](https://github.com/bailesofhey/slisp)
 
 > Modern Lisp variant inspired by Python, Clojure & Arc.
