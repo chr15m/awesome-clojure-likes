@@ -58,6 +58,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Native JavaScript types and function calls.
  * Maintenance mode.
 
+### [Apricot](https://github.com/apricot-lang/apricot)
+
+> Apricot is a programming language inspired by Clojure and Lisp that runs on the [Rubinius](http://rubini.us/) VM.
+
+ * Implemented in Ruby.
+ * Dorman project.
+
 ### [Gherkin](https://github.com/alandipert/gherkin)
 
 > A functional programming language and interpreter written in GNU Bash 4.
