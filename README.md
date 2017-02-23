@@ -43,6 +43,12 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Restricted subset of Clojure.
  * Embedded systems focus.
 
+### [Toccata](https://github.com/jduey/toccata)
+
+> A Clojure dialect that compiles to native executable using the Clang compiler.
+
+ * Self hosted.
+
 ### [timl](https://github.com/tpope/timl)
 
 > TimL is a Lisp dialect implemented in and compiling down to VimL, the scripting language provided by the Vim text editor.
