@@ -43,6 +43,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Restricted subset of Clojure.
  * Embedded systems focus.
 
+### [timl](https://github.com/tpope/timl)
+
+> TimL is a Lisp dialect implemented in and compiling down to VimL, the scripting language provided by the Vim text editor.
+
+ * Implemented in Vim's scripting language.
+ * Dormant project.
+
 ### [ki](http://ki-lang.org/)
 
 > A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
