@@ -27,6 +27,21 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Inspied by Haskell, Clojure, ML.
  * Actively developed.
 
+### [ki](http://ki-lang.org/)
+
+> A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
+
+ * Implemented in Javascript
+ * Intermix LISP code with JavaScript.
+
+### [Wisp](https://github.com/Gozala/wisp)
+
+> A little Clojure-like LISP in JavaScript.
+
+ * [Try it](http://www.jeditoolkit.com/wisp/)
+ * Native JavaScript types and function calls.
+ * Maintenance mode.
+
 ### [Pixie](https://github.com/pixie-lang/pixie)
 
 > A small, fast, native lisp with "magical" powers.
@@ -54,7 +69,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 > Clojure-inspired Lisp that transpiles to Ruby.
 
  * Implemented in Ruby.
- * tries to cover Ruby's functionality with more concise code forms.
+ * Tries to cover Ruby's functionality with more concise code forms.
 
 ### [slisp](https://github.com/bailesofhey/slisp)
 
@@ -70,27 +85,12 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Implemented in Vim's scripting language.
  * Dormant project.
 
-### [ki](http://ki-lang.org/)
-
-> A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
-
- * Implemented in Javascript
- * Intermix LISP code with JavaScript.
-
-### [Wisp](https://github.com/Gozala/wisp)
-
-> A little Clojure-like LISP in JavaScript.
-
- * [Try it](http://www.jeditoolkit.com/wisp/)
- * Native JavaScript types and function calls.
- * Maintenance mode.
-
 ### [Apricot](https://github.com/apricot-lang/apricot)
 
 > Apricot is a programming language inspired by Clojure and Lisp that runs on the [Rubinius](http://rubini.us/) VM.
 
  * Implemented in Ruby.
- * Dorman project.
+ * Dorman1 project.
 
 ### [Gherkin](https://github.com/alandipert/gherkin)
 
@@ -107,7 +107,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Runs on the LLVM JIT.
  * Dormant project.
 
-## Mal [make-a-lisp](https://github.com/kanaka/mal)
+# Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
 
