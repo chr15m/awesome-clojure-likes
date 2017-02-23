@@ -115,6 +115,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 Notable/usable implementations follow.
 
+### [malc](https://github.com/dubek/malc)
+
+ > Mal (Make A Lisp) compiler
+
+ * Compiler for Mal, written in Mal itself.
+ * Compiles a Mal program to LLVM assembly language (IR), and then uses the LLVM optimizer, assembler and gcc linker to produce a binary executable.
+
 ### [miniMAL](https://github.com/kanaka/miniMAL)
 
 > A Delightfully Diminutive Lisp. Implemented in < 1 KB of JavaScript with JSON source.
@@ -122,9 +129,12 @@ Notable/usable implementations follow.
  * [Try it](https://kanaka.github.io/miniMAL/).
  * Uses JSON syntax.
 
-
-### [Mal PHP](https://github.com/kanaka/mal/tree/master/php)
+### [mal/php](https://github.com/kanaka/mal/tree/master/php)
 
  * Implemented in PHP.
  * Interop with & runs where PHP does.
+
+### [mal/ruby](https://github.com/kanaka/mal/tree/master/ruby)
+
+ * Implements the #mal IRC bot.
 
