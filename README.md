@@ -1,6 +1,6 @@
 Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-like programming languages.
 
-[Contribute](./contributing.md).
+[Contribute](./contributing.md). [More](./more.md).
 
 ## Official variants
 
