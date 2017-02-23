@@ -49,6 +49,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Self hosted.
 
+### [slisp](https://github.com/bailesofhey/slisp)
+
+> Modern Lisp variant inspired by Python, Clojure & Arc.
+
+ * Implemented in C++.
+ * Modern, OO, both statically & dynamically typed.
+
 ### [timl](https://github.com/tpope/timl)
 
 > TimL is a Lisp dialect implemented in and compiling down to VimL, the scripting language provided by the Vim text editor.
