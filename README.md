@@ -58,7 +58,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Restricted subset of Clojure.
  * Embedded systems focus.
 
-### [Toccata](https://github.com/jduey/toccata)
+### [Toccata](https://github.com/Toccata-Lang/toccata)
 
 > A Clojure dialect that compiles to native executable using the Clang compiler.
 
