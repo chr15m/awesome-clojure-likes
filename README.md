@@ -90,7 +90,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 > Apricot is a programming language inspired by Clojure and Lisp that runs on the [Rubinius](http://rubini.us/) VM.
 
  * Implemented in Ruby.
- * Dorman1 project.
+ * Dormant project.
 
 ### [Gherkin](https://github.com/alandipert/gherkin)
 
