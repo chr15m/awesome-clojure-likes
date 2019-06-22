@@ -19,6 +19,17 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * All of available Python tooling available.
  * Actively developed.
 
+### [Clojerl](https://clojerl.org/)
+
+> Clojure implemented on the Erlang VM.
+
+ * [Try it](http://try.clojerl.online/).
+ * [Source code on GitHub](https://github.com/clojerl/clojerl).
+ * Interoperability as smooth as possible, just like Clojure proper and ClojureScript do.
+ * Provide most Clojure abstractions.
+ * Provide all Erlang abstractions and toolset.
+ * Include a default OTP library in Clojerl.
+
 ### [Lux](https://github.com/LuxLang/lux)
 
 > A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
