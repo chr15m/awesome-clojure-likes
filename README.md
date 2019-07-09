@@ -10,6 +10,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 ## Clojure-likes
 
+### [Joker](https://joker-lang.org/)
+
+> Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter.
+
+ * Fast startup time.
+ * Sane error messages and stacktraces.
+ * Batteries included: send HTTP requests, read and parse JSON, work with file system, start external processes, etc.
+
 ### [Hy](http://hylang.org/)
 
 > Hy is a wonderful dialect of Lisp that’s embedded in Python.
