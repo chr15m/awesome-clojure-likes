@@ -5,7 +5,7 @@ Contributions welcome, please PR. \o/
  * It is a LISP.
  * The documentation states it is inspired by Clojure.
 
-Has one or more of the following properties:
+Probably has one or more of the following properties:
 
  * Shares some syntactic shortcuts of Clojure (e.g. `[]`, `{}`, `#{}`, `#()`)
  * Preference for immutable datastructures (probably trie based).
@@ -20,8 +20,10 @@ Basically if it looks and smells like Clojure then it's a candidate for inclusio
 	> Language tagline from website.
 	
 	 * [Try it](http://link-to-online-repl/)
+	 * [Source code](http://github.com/source/page)
 	 * Notable point 1.
 	 * Notable point 2.
 	 ...
 	 * Project status if not actively maintained.
 
+Please submit a PR with a new entry in roughly GitHub-stars-count sorted order.
