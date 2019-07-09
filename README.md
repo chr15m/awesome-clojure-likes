@@ -26,6 +26,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in RPython.
  * Runs on own VM.
+ * Dormant project.
 
 ### [Clojerl](https://clojerl.org/)
 
@@ -79,6 +80,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * [Source code](https://github.com/lantiga/ki)
  * Implemented in Javascript
  * Intermix LISP code with JavaScript.
+ * Dormant project.
 
 ### [Toccata](https://github.com/Toccata-Lang/toccata)
 
@@ -92,6 +94,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in Ruby.
  * Tries to cover Ruby's functionality with more concise code forms.
+ * Dormant project.
 
 ### [slisp](https://github.com/bailesofhey/slisp)
 
@@ -99,6 +102,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in C++.
  * Modern, OO, both statically & dynamically typed.
+ * Dormant project.
 
 ### [timl](https://github.com/tpope/timl)
 
