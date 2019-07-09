@@ -80,6 +80,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * [Source code](https://github.com/lantiga/ki)
  * Implemented in Javascript
  * Intermix LISP code with JavaScript.
+ * Dormant project.
 
 ### [Toccata](https://github.com/Toccata-Lang/toccata)
 
