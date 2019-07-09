@@ -94,6 +94,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in Ruby.
  * Tries to cover Ruby's functionality with more concise code forms.
+ * Dormant project.
 
 ### [slisp](https://github.com/bailesofhey/slisp)
 
