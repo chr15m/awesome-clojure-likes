@@ -26,6 +26,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in RPython.
  * Runs on own VM.
+ * Dormant project.
 
 ### [Clojerl](https://clojerl.org/)
 
