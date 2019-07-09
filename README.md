@@ -102,6 +102,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in C++.
  * Modern, OO, both statically & dynamically typed.
+ * Dormant project.
 
 ### [timl](https://github.com/tpope/timl)
 
