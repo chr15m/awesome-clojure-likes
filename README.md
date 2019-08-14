@@ -133,6 +133,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Runs on the LLVM JIT.
  * Dormant project.
 
+### [Small Clojure Interpreter](https://github.com/borkdude/sci)
+
+> A tiny implementation of Clojure in Clojure.
+
+* Made to evaluate code from user input where `eval` is unsafe or unavailable.
+* Early development.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
