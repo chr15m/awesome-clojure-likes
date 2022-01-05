@@ -39,6 +39,19 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Provide all Erlang abstractions and toolset.
  * Include a default OTP library in Clojerl.
 
+## [Fennel](https://fennel-lang.org)
+
+> Lua Lisp Language.
+
+ * [Try it](https://fennel-lang.org/main)
+ * [Source code](http://github.com/source/page)
+ * Full Lua compatibility.
+ * Zero overhead.
+ * Compile-time macros.
+ * Embeddable.
+ * [Learning Fennel from Clojure](https://fennel-lang.org/from-clojure)
+ * Quite popular in [game development](https://itch.io/games/tag-fennel)
+
 ### [Lux](https://github.com/LuxLang/lux)
 
 > A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
