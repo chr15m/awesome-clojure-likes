@@ -39,7 +39,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Provide all Erlang abstractions and toolset.
  * Include a default OTP library in Clojerl.
 
-## [Fennel](https://fennel-lang.org)
+### [Fennel](https://fennel-lang.org)
 
 > Lua Lisp Language.
 
