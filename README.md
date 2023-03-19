@@ -163,6 +163,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Built-in gradual type system which allows for malli-style type annotations which result in static type analysis.
 * [Work in progress](https://jank-lang.org/progress/)
 
+### [Calcit](http://calcit-lang.org/)
+
+> Heavily influenced by Clojure APIs, Macros, persistent data structure. Previously compiling to Clojure.
+
+* Implemented in Rust. It was previously compiled to Clojure to run.
+* Builtin persistent data structure. Shares many functions/macros API designs from Clojure.
+* Designed like Lisp but prefers indentation based syntax or GUI code editor.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
@@ -193,4 +201,3 @@ Notable/usable implementations follow.
 ### [mal/ruby](https://github.com/kanaka/mal/tree/master/ruby)
 
  * Implements the #mal IRC bot.
-
