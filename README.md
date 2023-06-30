@@ -153,14 +153,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Made to evaluate code from user input where `eval` is unsafe or unavailable.
 * Early development.
 
-### [Jank](https://jank-lang.org/)
+### [jank](https://jank-lang.org/)
 
-> jank is strongly compatible with Clojure; its host is C++ on top of an LLVM-based JIT, with a built-in gradual type system.
+> jank is a native Clojure dialect hosted on LLVM with C++ interop.
 
-* Any Clojure library without interop will compile into your jank projects.
+* Strong Clojure compatibility; if it's valid Clojure and ClojureScript, it'll be valid jank.
 * Built on an LLVM-based JIT. With AOT enabled, both statically and dynamically linked executables can be generated.
 * Use your favorite nREPL editor plugin. jank uses an LLVM-based JIT to compile machine code on the fly.
-* Built-in gradual type system which allows for malli-style type annotations which result in static type analysis.
+* Utilize LLVM to link with your existing code or compile to WASM.
 * [Work in progress](https://jank-lang.org/progress/)
 
 ### [Calcit](http://calcit-lang.org/)
