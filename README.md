@@ -14,7 +14,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > Hy is a wonderful dialect of Lisp that’s embedded in Python.
 
- * [Try it](https://try-hy.appspot.com/).
+ * [Try it](https://hylang.org/try-hy).
  * [Source code](https://github.com/hylang/hy).
  * High level of interop with host language.
  * All of available Python tooling available.
