@@ -10,6 +10,37 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 ## Clojure-likes
 
+### [Babashka](https://babashka.org/)
+
+> Fast native Clojure scripting runtime. Avoid switching between Clojure and bash scripts. Enjoy your parens on the command line.
+
+* Instant startup.
+* Batteries included.
+* Cross-platform.
+* Multi-threaded.
+* Task runner.
+* Libraries & "pods".
+* Actively developed.
+
+### [nbb](https://github.com/babashka/nbb)
+
+> Ad-hoc CLJS scripting on Node.js. Nbb's main goal is to make it easy to get started with ad hoc CLJS scripting on Node.js.
+
+* Fast startup without relying on a custom version of Node.js.
+* Small artifact (current size is around 1.2MB).
+* First class macros.
+* Support building small TUI apps using Reagent.
+* Complement babashka with libraries from the Node.js ecosystem.
+
+### [Squint/Cherry](https://github.com/squint-cljs/)
+
+> Squint is a compiler for an experimental dialect of ClojureScript. A tool to target JS for anything you would not use ClojureScript for, for whatever reason: performance, bundle size, ease of interop, etc.
+
+> Cherry is an experimental ClojureScript to ES6 module compiler. Reducing friction between ClojureScript and JS tooling.
+
+* Compile cljs to js with various tradeoffs.
+* Available on NPM and can be used from JS tooling.
+
 ### [Hy](http://hylang.org/)
 
 > Hy is a wonderful dialect of Lisp that’s embedded in Python.
