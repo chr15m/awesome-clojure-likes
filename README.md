@@ -202,6 +202,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Builtin persistent data structure. Shares many functions/macros API designs from Clojure.
 * Designed like Lisp but prefers indentation based syntax or GUI code editor.
 
+### [CLClojure](https://github.com/joinr/clclojure)
+
+> An experimental port of Clojure to Common Lisp.
+
+* Implements Clojure's persistent data structures (vectors, maps, sets) in Common Lisp.
+* Provides Clojure-like protocols, lazy sequences, and loop/recur functionality.
+* Bridges Lisp-1/Lisp-2 differences with a unified lexical environment.
+* Custom reader macros for Clojure data literals.
+* Experimental/Work-in-progress status.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
