@@ -233,6 +233,15 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Straightforward integration with existing C code.
 * Lisp macros, compile time scripting and a helpful REPL.
 
+### [Clodiuno](https://nakkaya.com/clodiuno.html)
+
+> A Clojure API for Arduino that allows Clojure developers to interface with the physical world using Arduino hardware.
+
+* Control Arduino hardware using Clojure.
+* Supports two interfaces: USB via Firmata or WiFi via WiShield.
+* Libraries available via Clojars.
+* Includes examples for servo control, motor control, sensors, and more.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
