@@ -212,6 +212,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Custom reader macros for Clojure data literals.
 * Experimental/Work-in-progress status.
 
+### [Cloture](https://github.com/ruricolist/cloture)
+
+> An implementation of Clojure in Common Lisp.
+
+* Designed for seamless interoperation with Common Lisp.
+* Clojure namespaces are implemented as Lisp packages.
+* Uses FSet for implementing Clojure vectors, maps, and sets.
+* Supports reader conditionals and Clojure's concurrency primitives.
+* Pre-alpha status but can load clojure.test and run tests written in Clojure.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
