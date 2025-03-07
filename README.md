@@ -262,6 +262,17 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Enables IoT and embedded development with ClojureScript.
 * Provides a way to use Clojure's functional programming paradigm on microcontrollers.
 
+### [Lokke](https://github.com/lokke-org/lokke)
+
+> A full dialect of Clojure for Guile.
+
+* Proper tail-recursion thanks to Guile.
+* Clojure namespaces are implemented as Guile modules.
+* Provides support for persistent data structures (vectors, hash-maps, hash-sets).
+* Includes support for atoms, refs, futures, regex, and more.
+* Experimental support for try/catch/finally with exception suppression.
+* GMP-backed numeric tower with arbitrary precision integers.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
