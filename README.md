@@ -242,6 +242,17 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Libraries available via Clojars.
 * Includes examples for servo control, motor control, sensors, and more.
 
+### [Phel](https://phel-lang.org/)
+
+> A functional programming language that compiles to PHP. It is a dialect of Lisp inspired by Clojure and Janet.
+
+* Runs on PHP's ecosystem (requires PHP >=8.2).
+* Implements persistent data structures (Lists, Vectors, Maps and Sets).
+* First-class macros and recursive functions.
+* Simple but powerful Lisp syntax with good error reporting.
+* REPL available via Docker container.
+* Created to enable functional programming on affordable/common PHP hosting.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
