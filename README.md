@@ -273,6 +273,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Experimental support for try/catch/finally with exception suppression.
 * GMP-backed numeric tower with arbitrary precision integers.
 
+### [JO Clojure](https://github.com/Zelex/jo_clojure)
+
+> A fast, embeddable Clojure-like language implementation in C/C++.
+
+* Native implementation of most of the Clojure core library.
+* Extremely fast startup time compared to JVM Clojure.
+* Implementations of persistent collections (lists, vectors, hash-maps, hash-sets).
+* Software Transactional Memory (STM) that works seamlessly with atoms.
+* Future plans include compilation to native executables and tensor/ML operations.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
