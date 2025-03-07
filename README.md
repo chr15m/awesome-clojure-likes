@@ -224,16 +224,12 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 ### [Carp](https://github.com/carp-lang/Carp)
 
-> A programming language that borrows its looks from Clojure but is designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
+> A language that borrows syntax from Clojure, designed for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 
-* Borrows syntax from Clojure but with runtime semantics closer to ML or Rust.
-* Automatic and deterministic memory management through ownership tracking.
-* Memory management handled by static analysis without garbage collection.
-* Inferred static types with optional type annotations using `the` keyword.
-* Pattern matching with `match` and `match-ref` for safe data extraction.
-* Module system with interface-based polymorphism.
-* Seamless C interoperability for system-level programming.
-* Lisp macros, compile time scripting and a helpful REPL with "hole" support.
+* Clojure-like syntax with ML/Rust-inspired semantics and ownership-based memory management.
+* Static type system with inference, annotations, and pattern matching for safe data extraction.
+* Module system with interfaces and seamless C interoperability for system programming.
+* Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
 
 ### [Clodiuno](https://nakkaya.com/clodiuno.html)
 
