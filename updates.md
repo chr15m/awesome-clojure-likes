@@ -4,12 +4,11 @@ This document contains notes about issues encountered while processing the URLs 
 
 ## https://github.com/Zelex/jo_clojure
 
-Unable to gather sufficient information about this project. As I don't have direct access to the GitHub repository, I cannot determine:
-- The language's exact features
-- Implementation details
-- Current development status
-
-This project would need manual review to determine if it's suitable for inclusion in the awesome-clojure-likes list.
+Successfully added to README.md.
+- A fast, embeddable Clojure-like language implemented in C/C++.
+- Focuses on quick startup time and native execution.
+- Implements persistent collections and software transactional memory.
+- Plans to add native compilation, tensor/ML operations in the future.
 
 ## https://github.com/joinr/clclojure
 
