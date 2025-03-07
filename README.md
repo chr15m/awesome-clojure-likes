@@ -224,7 +224,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 ### [Carp](https://github.com/carp-lang/Carp)
 
-> A programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
+> A programming language that borrows its looks from Clojure but is designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 
 * Borrows syntax from Clojure but with runtime semantics closer to ML or Rust.
 * Automatic and deterministic memory management through ownership tracking.
