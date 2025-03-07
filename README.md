@@ -226,12 +226,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 
-* Automatic and deterministic memory management (no garbage collector or VM).
-* Inferred static types for speed and reliability.
-* Ownership tracking enables functional programming with mutation of cache-friendly data structures.
-* No hidden performance penalties – allocation and copying are explicit.
-* Straightforward integration with existing C code.
-* Lisp macros, compile time scripting and a helpful REPL.
+* Borrows syntax from Clojure but with runtime semantics closer to ML or Rust.
+* Automatic and deterministic memory management through ownership tracking.
+* Memory management handled by static analysis without garbage collection.
+* Inferred static types with optional type annotations using `the` keyword.
+* Pattern matching with `match` and `match-ref` for safe data extraction.
+* Module system with interface-based polymorphism.
+* Seamless C interoperability for system-level programming.
+* Lisp macros, compile time scripting and a helpful REPL with "hole" support.
 
 ### [Clodiuno](https://nakkaya.com/clodiuno.html)
 
