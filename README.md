@@ -253,6 +253,15 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * REPL available via Docker container.
 * Created to enable functional programming on affordable/common PHP hosting.
 
+### [Esprit](https://github.com/mfikes/esprit)
+
+> ClojureScript for ESP32 microcontrollers using Espruino.
+
+* Runs ClojureScript on ESP32 hardware.
+* Leverages Espruino as the JavaScript runtime.
+* Enables IoT and embedded development with ClojureScript.
+* Provides a way to use Clojure's functional programming paradigm on microcontrollers.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
