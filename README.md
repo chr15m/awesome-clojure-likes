@@ -222,6 +222,17 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Supports reader conditionals and Clojure's concurrency primitives.
 * Pre-alpha status but can load clojure.test and run tests written in Clojure.
 
+### [Carp](https://github.com/carp-lang/Carp)
+
+> A programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
+
+* Automatic and deterministic memory management (no garbage collector or VM).
+* Inferred static types for speed and reliability.
+* Ownership tracking enables functional programming with mutation of cache-friendly data structures.
+* No hidden performance penalties – allocation and copying are explicit.
+* Straightforward integration with existing C code.
+* Lisp macros, compile time scripting and a helpful REPL.
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
