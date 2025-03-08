@@ -202,15 +202,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Builtin persistent data structure. Shares many functions/macros API designs from Clojure.
 * Designed like Lisp but prefers indentation based syntax or GUI code editor.
 
-### [CLClojure](https://github.com/joinr/clclojure)
+### [Carp](https://github.com/carp-lang/Carp)
 
-> An experimental port of Clojure to Common Lisp.
+> A language that borrows syntax from Clojure, designed for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
 
-* Implements Clojure's persistent data structures (vectors, maps, sets) in Common Lisp.
-* Provides Clojure-like protocols, lazy sequences, and loop/recur functionality.
-* Bridges Lisp-1/Lisp-2 differences with a unified lexical environment.
-* Custom reader macros for Clojure data literals.
-* Dormant project.
+* Clojure-like syntax with ML/Rust-inspired semantics and ownership-based memory management.
+* Static type system with inference, annotations, and pattern matching for safe data extraction.
+* Module system with interfaces and seamless C interoperability for system programming.
+* Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
 
 ### [Cloture](https://github.com/ruricolist/cloture)
 
@@ -221,24 +220,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Uses FSet for implementing Clojure vectors, maps, and sets.
 * Supports reader conditionals and Clojure's concurrency primitives.
 * Pre-alpha status but can load clojure.test and run tests written in Clojure.
-
-### [Carp](https://github.com/carp-lang/Carp)
-
-> A language that borrows syntax from Clojure, designed for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-
-* Clojure-like syntax with ML/Rust-inspired semantics and ownership-based memory management.
-* Static type system with inference, annotations, and pattern matching for safe data extraction.
-* Module system with interfaces and seamless C interoperability for system programming.
-* Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
-
-### [Clodiuno](https://nakkaya.com/clodiuno.html)
-
-> A Clojure API for Arduino that allows Clojure developers to interface with the physical world using Arduino hardware.
-
-* Control Arduino hardware using Clojure.
-* Supports two interfaces: USB via Firmata or WiFi via WiShield.
-* Libraries available via Clojars.
-* Includes examples for servo control, motor control, sensors, and more.
 
 ### [Phel](https://phel-lang.org/)
 
@@ -251,14 +232,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * REPL available via Docker container.
 * Created to enable functional programming on affordable/common PHP hosting.
 
-### [Esprit](https://github.com/mfikes/esprit)
+### [CLClojure](https://github.com/joinr/clclojure)
 
-> ClojureScript for ESP32 microcontrollers using Espruino.
+> An experimental port of Clojure to Common Lisp.
 
-* Runs ClojureScript on ESP32 hardware.
-* Leverages Espruino as the JavaScript runtime.
-* Enables IoT and embedded development with ClojureScript.
-* Provides a way to use Clojure's functional programming paradigm on microcontrollers.
+* Implements Clojure's persistent data structures (vectors, maps, sets) in Common Lisp.
+* Provides Clojure-like protocols, lazy sequences, and loop/recur functionality.
+* Bridges Lisp-1/Lisp-2 differences with a unified lexical environment.
+* Custom reader macros for Clojure data literals.
 * Dormant project.
 
 ### [Lokke](https://github.com/lokke-org/lokke)
@@ -281,6 +262,25 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Implementations of persistent collections (lists, vectors, hash-maps, hash-sets).
 * Software Transactional Memory (STM) that works seamlessly with atoms.
 * Future plans include compilation to native executables and tensor/ML operations.
+
+### [Clodiuno](https://nakkaya.com/clodiuno.html)
+
+> A Clojure API for Arduino that allows Clojure developers to interface with the physical world using Arduino hardware.
+
+* Control Arduino hardware using Clojure.
+* Supports two interfaces: USB via Firmata or WiFi via WiShield.
+* Libraries available via Clojars.
+* Includes examples for servo control, motor control, sensors, and more.
+
+### [Esprit](https://github.com/mfikes/esprit)
+
+> ClojureScript for ESP32 microcontrollers using Espruino.
+
+* Runs ClojureScript on ESP32 hardware.
+* Leverages Espruino as the JavaScript runtime.
+* Enables IoT and embedded development with ClojureScript.
+* Provides a way to use Clojure's functional programming paradigm on microcontrollers.
+* Dormant project.
 
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
