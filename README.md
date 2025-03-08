@@ -19,27 +19,27 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Module system with interfaces and seamless C interoperability for system programming.
 - Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
 
-### [Hy](http://hylang.org/)
+### [Hy](https://hylang.org/)
 
 > Hy is a wonderful dialect of Lisp that's embedded in Python.
 
 - [Try it](https://hylang.org/try-hy).
 - [Source code](https://github.com/hylang/hy).
 - High level of interop with host language.
-- All of available Python tooling available.
-- Actively developed.
+- All Python tooling available.
 
 ### [Babashka](https://babashka.org/)
 
 > Fast native Clojure scripting runtime. Avoid switching between Clojure and bash scripts. Enjoy your parens on the command line.
 
+- [Source code](https://github.com/babashka/babashka).
+- [Documentation](https://book.babashka.org/).
 - Instant startup.
 - Batteries included.
 - Cross-platform.
 - Multi-threaded.
 - Task runner.
 - Libraries & "pods".
-- Actively developed.
 
 ### [nbb](https://github.com/babashka/nbb)
 
@@ -60,7 +60,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Seamless interoperability with Python modules and objects.
 - Provides familiar Clojure abstractions: persistent collections, protocols, namespaces, and macros.
 - REPL with syntax highlighting, autocomplete, and inline documentation.
-- Actively developed.
 
 ### [Pixie](https://github.com/pixie-lang/pixie)
 
@@ -85,28 +84,28 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > Lua Lisp Language.
 
-- [Try it](https://fennel-lang.org/main)
-- [Source code](http://github.com/source/page)
+- [Try it](https://fennel-lang.org/main).
+- [Source code](https://github.com/bakpakin/Fennel).
+- [Documentation](https://fennel-lang.org/reference).
+- [Learning Fennel from Clojure](https://fennel-lang.org/from-clojure).
 - Full Lua compatibility.
 - Zero overhead.
 - Compile-time macros.
 - Embeddable.
-- [Learning Fennel from Clojure](https://fennel-lang.org/from-clojure)
-- Quite popular in [game development](https://itch.io/games/tag-fennel)
+- Quite popular in [game development](https://itch.io/games/tag-fennel).
 
 ### [Lux](https://github.com/LuxLang/lux)
 
 > A functional, statically-typed Lisp that will run on several platforms, such as the Java Virtual Machine and JavaScript interpreters.
 
 - Implemented in Clojure.
-- Inspied by Haskell, Clojure, ML.
-- Actively developed.
+- Inspired by Haskell, Clojure, ML.
 
 ### [Wisp](https://github.com/Gozala/wisp)
 
-> A little Clojure-like LISP in JavaScript.
+> A little Clojure-like Lisp in JavaScript.
 
-- [Try it](http://www.jeditoolkit.com/wisp/)
+- [Try it](http://www.jeditoolkit.com/wisp/).
 - Native JavaScript types and function calls.
 - Maintenance mode.
 
@@ -114,7 +113,8 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter.
 
-- [Source code](https://github.com/candid82/joker)
+- [Source code](https://github.com/candid82/joker).
+- [Documentation](https://joker-lang.org/docs/latest/).
 - Fast startup time.
 - Sane error messages and stacktraces.
 - Batteries included: send HTTP requests, read and parse JSON, work with file system, start external processes, etc.
@@ -123,6 +123,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A Hard Real-Time Clojure for Lisp Machines.
 
+- [Source code](https://github.com/nakkaya/ferret).
 - Implemented in Clojure.
 - Compiles to ISO C++11.
 - Restricted subset of Clojure.
@@ -132,9 +133,9 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
 
-- [Source code](https://github.com/lantiga/ki)
-- Implemented in Javascript
-- Intermix LISP code with JavaScript.
+- [Source code](https://github.com/lantiga/ki).
+- Implemented in JavaScript.
+- Intermix Lisp code with JavaScript.
 - Dormant project.
 
 ### [Toccata](https://github.com/Toccata-Lang/toccata)
@@ -199,16 +200,19 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > jank is a native Clojure dialect hosted on LLVM with C++ interop.
 
+- [Source code](https://github.com/jank-lang/jank).
+- [Documentation](https://jank-lang.org/docs/).
 - Strong Clojure compatibility; if it's valid Clojure and ClojureScript, it'll be valid jank.
 - Built on an LLVM-based JIT. With AOT enabled, both statically and dynamically linked executables can be generated.
 - Use your favorite nREPL editor plugin. jank uses an LLVM-based JIT to compile machine code on the fly.
 - Utilize LLVM to link with your existing code or compile to WASM.
-- [Work in progress](https://jank-lang.org/progress/)
+- [Work in progress](https://jank-lang.org/progress/).
 
 ### [Calcit](http://calcit-lang.org/)
 
 > Heavily influenced by Clojure APIs, Macros, persistent data structure. Previously compiling to Clojure.
 
+- [Source code](https://github.com/calcit-lang/calcit).
 - Implemented in Rust. It was previously compiled to Clojure to run.
 - Builtin persistent data structure. Shares many functions/macros API designs from Clojure.
 - Designed like Lisp but prefers indentation based syntax or GUI code editor.
@@ -217,6 +221,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > An implementation of Clojure in Common Lisp.
 
+- [Documentation](https://github.com/ruricolist/cloture/blob/master/README.md).
 - Designed for seamless interoperation with Common Lisp.
 - Clojure namespaces are implemented as Lisp packages.
 - Uses FSet for implementing Clojure vectors, maps, and sets.
@@ -227,6 +232,8 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A functional programming language that compiles to PHP. It is a dialect of Lisp inspired by Clojure and Janet.
 
+- [Source code](https://github.com/phel-lang/phel-lang).
+- [Documentation](https://phel-lang.org/documentation/).
 - Runs on PHP's ecosystem (requires PHP >=8.2).
 - Implements persistent data structures (Lists, Vectors, Maps and Sets).
 - First-class macros and recursive functions.
@@ -248,6 +255,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A full dialect of Clojure for Guile.
 
+- [Documentation](https://lokke.gitlab.io/lokke/).
 - Proper tail-recursion thanks to Guile.
 - Clojure namespaces are implemented as Guile modules.
 - Provides support for persistent data structures (vectors, hash-maps, hash-sets).
@@ -269,6 +277,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A Clojure API for Arduino that allows Clojure developers to interface with the physical world using Arduino hardware.
 
+- [Source code](https://github.com/nakkaya/clodiuno).
 - Control Arduino hardware using Clojure.
 - Supports two interfaces: USB via Firmata or WiFi via WiShield.
 - Libraries available via Clojars.
@@ -288,7 +297,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
 
-- [Try it](https://kanaka.github.io/mal/)
+- [Try it](https://kanaka.github.io/mal/).
 
 Notable/usable implementations follow.
 
