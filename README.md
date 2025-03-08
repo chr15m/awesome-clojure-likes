@@ -19,6 +19,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Module system with interfaces and seamless C interoperability for system programming.
 * Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
 
+### [Hy](http://hylang.org/)
+
+> Hy is a wonderful dialect of Lisp that's embedded in Python.
+
+ * [Try it](https://hylang.org/try-hy).
+ * [Source code](https://github.com/hylang/hy).
+ * High level of interop with host language.
+ * All of available Python tooling available.
+ * Actively developed.
+
 ### [Babashka](https://babashka.org/)
 
 > Fast native Clojure scripting runtime. Avoid switching between Clojure and bash scripts. Enjoy your parens on the command line.
@@ -40,25 +50,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * First class macros.
 * Support building small TUI apps using Reagent.
 * Complement babashka with libraries from the Node.js ecosystem.
-
-### [Squint/Cherry](https://github.com/squint-cljs/)
-
-> Squint is a compiler for an experimental dialect of ClojureScript. A tool to target JS for anything you would not use ClojureScript for, for whatever reason: performance, bundle size, ease of interop, etc.
-
-> Cherry is an experimental ClojureScript to ES6 module compiler. Reducing friction between ClojureScript and JS tooling.
-
-* Compile cljs to js with various tradeoffs.
-* Available on NPM and can be used from JS tooling.
-
-### [Hy](http://hylang.org/)
-
-> Hy is a wonderful dialect of Lisp that’s embedded in Python.
-
- * [Try it](https://hylang.org/try-hy).
- * [Source code](https://github.com/hylang/hy).
- * High level of interop with host language.
- * All of available Python tooling available.
- * Actively developed.
 
 ### [Basilisp](https://github.com/basilisp-lang/basilisp)
 
