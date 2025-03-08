@@ -60,6 +60,17 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * All of available Python tooling available.
  * Actively developed.
 
+### [Basilisp](https://github.com/basilisp-lang/basilisp)
+
+> A Lisp dialect with Clojure syntax for Python.
+
+ * [Documentation](https://basilisp.readthedocs.io/).
+ * Implementation of a Clojure-like language that targets Python 3.8+.
+ * Seamless interoperability with Python modules and objects.
+ * Provides familiar Clojure abstractions: persistent collections, protocols, namespaces, and macros.
+ * REPL with syntax highlighting, autocomplete, and inline documentation.
+ * Actively developed.
+
 ### [Pixie](https://github.com/pixie-lang/pixie)
 
 > A small, fast, native lisp with "magical" powers.
