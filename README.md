@@ -210,7 +210,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Provides Clojure-like protocols, lazy sequences, and loop/recur functionality.
 * Bridges Lisp-1/Lisp-2 differences with a unified lexical environment.
 * Custom reader macros for Clojure data literals.
-* Experimental/Work-in-progress status.
+* Dormant project.
 
 ### [Cloture](https://github.com/ruricolist/cloture)
 
@@ -259,6 +259,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Leverages Espruino as the JavaScript runtime.
 * Enables IoT and embedded development with ClojureScript.
 * Provides a way to use Clojure's functional programming paradigm on microcontrollers.
+* Dormant project.
 
 ### [Lokke](https://github.com/lokke-org/lokke)
 
