@@ -10,6 +10,15 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 ## Clojure-likes
 
+### [Carp](https://github.com/carp-lang/Carp)
+
+> A language that borrows syntax from Clojure, designed for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
+
+* Clojure-like syntax with ML/Rust-inspired semantics and ownership-based memory management.
+* Static type system with inference, annotations, and pattern matching for safe data extraction.
+* Module system with interfaces and seamless C interoperability for system programming.
+* Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
+
 ### [Babashka](https://babashka.org/)
 
 > Fast native Clojure scripting runtime. Avoid switching between Clojure and bash scripts. Enjoy your parens on the command line.
@@ -201,15 +210,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 * Implemented in Rust. It was previously compiled to Clojure to run.
 * Builtin persistent data structure. Shares many functions/macros API designs from Clojure.
 * Designed like Lisp but prefers indentation based syntax or GUI code editor.
-
-### [Carp](https://github.com/carp-lang/Carp)
-
-> A language that borrows syntax from Clojure, designed for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
-
-* Clojure-like syntax with ML/Rust-inspired semantics and ownership-based memory management.
-* Static type system with inference, annotations, and pattern matching for safe data extraction.
-* Module system with interfaces and seamless C interoperability for system programming.
-* Lisp macros and interactive REPL with developer-friendly features like "hole" debugging.
 
 ### [Cloture](https://github.com/ruricolist/cloture)
 
