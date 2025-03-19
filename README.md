@@ -131,7 +131,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Implemented in Clojure.
 - Inspired by Haskell, Clojure, ML.
 
-### [Wisp](https://github.com/Gozala/wisp)
+### [Wisp](https://github.com/wisp-lang/wisp)
 
 > A little Clojure-like Lisp in JavaScript.
 
@@ -219,7 +219,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Runs on the LLVM JIT.
 - Dormant project.
 
-### [Small Clojure Interpreter](https://github.com/borkdude/sci)
+### [Small Clojure Interpreter](https://github.com/babashka/sci)
 
 > A tiny implementation of Clojure in Clojure.
 
