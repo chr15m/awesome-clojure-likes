@@ -127,7 +127,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 > Ad-hoc CLJS scripting on Node.js. Nbb's main goal is to make it easy to get started with ad hoc CLJS scripting on Node.js.
 
 - Fast startup without relying on a custom version of Node.js.
-- Small artifact (current size is around 1.2MB).
+- Small artifact (on the order of ~2Mb).
 - First class macros.
 - Support building small TUI apps using Reagent.
 - Complement babashka with libraries from the Node.js ecosystem.
@@ -141,7 +141,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Clojure namespaces are implemented as Lisp packages.
 - Uses FSet for implementing Clojure vectors, maps, and sets.
 - Supports reader conditionals and Clojure's concurrency primitives.
-- Pre-alpha status but can load clojure.test and run tests written in Clojure.
+- Can load clojure.test and run tests written in Clojure.
 
 ### [Phel](https://phel-lang.org/)
 
@@ -149,7 +149,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 - [Source code](https://github.com/phel-lang/phel-lang).
 - [Documentation](https://phel-lang.org/documentation/).
-- Runs on PHP's ecosystem (requires PHP >=8.2).
+- Runs on PHP's ecosystem.
 - Implements persistent data structures (Lists, Vectors, Maps and Sets).
 - First-class macros and recursive functions.
 - Simple but powerful Lisp syntax with good error reporting.
@@ -173,7 +173,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - [Try it on CodePen](https://codepen.io/Prestance/pen/PoOdZQw).
 - [Documentation](https://babashka.org/scittle/).
 - Run Clojure(Script) directly in the browser without compilation.
-- Tiny footprint (only ~13KB gzipped for the core).
+- Tiny footprint (on the order of ~15kb).
 - Support for popular CLJS libraries like reagent, re-frame, and promesa.
 - Ideal for adding scripting capabilities to web applications.
 - Example full stack web application available via [babashka-scittle-guestbook](https://github.com/kloimhardt/babashka-scittle-guestbook).
@@ -213,7 +213,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Extremely fast startup time compared to JVM Clojure.
 - Implementations of persistent collections (lists, vectors, hash-maps, hash-sets).
 - Software Transactional Memory (STM) that works seamlessly with atoms.
-- Future plans include compilation to native executables and tensor/ML operations.
 
 ### [Convex Lisp](https://docs.convex.world/docs/tutorial/convex-lisp/convex-lisp)
 
@@ -342,7 +341,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
-> Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in 63 languages**.
+> Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in >60 languages**.
 
 - [Try it](https://kanaka.github.io/mal/).
 
