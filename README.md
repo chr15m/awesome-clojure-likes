@@ -80,6 +80,20 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Provide all Erlang abstractions and toolset.
 - Include a default OTP library in Clojerl.
 
+### [Convex Lisp](https://docs.convex.world/docs/tutorial/convex-lisp/convex-lisp)
+
+> A Clojure-inspired lisp for decentralised economic systems
+
+- [Try it]((https://docs.convex.world/docs/tools/convex-repl).
+- [Source code](https://github.com/Convex-Dev/convex).
+- [Community Discord](https://discord.com/invite/xfYGq4CT7v).
+- Core language and syntax is (almost) identical to Clojure.
+- Designed for development of smart contracts and digital assets.
+- Runs on the decentralised Convex Virtual Machine.
+- High perfomance, real-time economic transaction processing.
+- Content-addressable immutable data structures with orthogonal persistence and cryptographic verification.
+- Supported by the non-profit Convex Foundation
+
 ### [Fennel](https://fennel-lang.org)
 
 > Lua Lisp Language.
