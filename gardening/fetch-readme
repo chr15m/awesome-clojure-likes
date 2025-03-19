@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 org/reponame"
+  exit 1
+fi
+
+REPO=$1
+MAIN_URL="https://raw.githubusercontent.com/$REPO/main/README.md"
+MASTER_URL="https://raw.githubusercontent.com/$REPO/master/README.md"
+
+# Try main branch first
+HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$MAIN_URL")
+
+if [ "$HTTP_CODE" -eq 200 ]; then
+  curl -s "$MAIN_URL"
+elif [ "$HTTP_CODE" -eq 404 ]; then
+  # If main fails with 404, try master
+  curl -s "$MASTER_URL"
+else
+  echo "Error: Failed to fetch README (HTTP code: $HTTP_CODE)" >&2
+  exit 1
+fi

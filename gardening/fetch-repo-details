@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Current date: $(date)"
+echo
+echo "GitHub Repository Star Counts:"
+echo "=============================="
+
+for repo in "$@"
+do
+  echo "- ${repo}"
+  curl -s "https://api.github.com/repos/${repo}" | jq '{"stars": .stargazers_count, "pushed": .pushed_at}'
+done

@@ -1,0 +1,38 @@
+Please help us maintain this list of awesome clojure-like languages.
+The main document is the README which lists the languages.
+Tasks:
+
+- Project descriptions should be up to date and concise but informational.
+- The maintainance status of each project should be noted in cases where a project is not receiving regular updates.
+- Projects should appear in the README with rough order of active projects at the start and higher popularity first.
+- Ignore the "Mal" section and any project which doesn't have a GitHub.
+
+Make sure you have the latest data before making changes. Don't just make changes based on your internal knowledge of a project.
+
+You can get current project READMEs with this script: `./gardening/fetch-readme org/repo`.
+
+You can get the latest data about projects using the script `gardening/fetch-repo-details org/repo org-2/repo-2 ...`.
+You can pass it multiple repos like this:
+
+$ ./gardening/fetch-repo-details "carp-lang/Carp" "hylang/hy" "babashka/babashka"
+Current date: Wed 19 Mar 12:01:25 AWST 2025
+
+GitHub Repository Star Counts:
+==============================
+- carp-lang/Carp
+{
+  "stars": ...,
+  "pushed": ...
+}
+- hylang/hy
+{
+  "stars": ...,
+  "pushed": ...
+}
+- babashka/babashka
+{
+  "stars": ...,
+  "pushed":...l
+}
+
+Start by listing the org/repo name of the all projects in the README which have a GitHub repo.

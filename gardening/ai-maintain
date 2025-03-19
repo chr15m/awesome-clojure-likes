@@ -1,0 +1,4 @@
+#!/bin/sh
+
+dir="$(realpath "$(dirname "$0")")"
+aider "$@" --read "${dir}/prompt-maintain.txt" --file "${dir}/../README.md" --read "${dir}/../contributing.md"
