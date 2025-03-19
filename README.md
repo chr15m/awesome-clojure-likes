@@ -81,6 +81,18 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Support building small TUI apps using Reagent.
 - Complement babashka with libraries from the Node.js ecosystem.
 
+### [Scittle](https://github.com/babashka/scittle)
+
+> The Small Clojure Interpreter (SCI) exposed for usage in script tags.
+
+- [Try it on CodePen](https://codepen.io/Prestance/pen/PoOdZQw).
+- [Documentation](https://babashka.org/scittle/).
+- Run Clojure(Script) directly in the browser without compilation.
+- Tiny footprint (only ~13KB gzipped for the core).
+- Support for popular CLJS libraries like reagent, re-frame, and promesa.
+- Ideal for adding scripting capabilities to web applications.
+- Example full stack web application available via [babashka-scittle-guestbook](https://github.com/kloimhardt/babashka-scittle-guestbook).
+
 ### [Basilisp](https://github.com/basilisp-lang/basilisp)
 
 > A Lisp dialect with Clojure syntax for Python.
