@@ -219,12 +219,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Runs on the LLVM JIT.
 - Dormant project.
 
-### [Small Clojure Interpreter](https://github.com/babashka/sci)
+### [Small Clojure Interpreter (SCI)](https://github.com/babashka/sci)
 
-> A tiny implementation of Clojure in Clojure.
+> A complete implementation of Clojure in Clojure for secure, sandboxed code evaluation.
 
-- Made to evaluate code from user input where `eval` is unsafe or unavailable.
-- Early development.
+- A lightweight, portable Clojure/ClojureScript interpreter for evaluating untrusted code
+- Runs on JVM, GraalVM native, Node.js, and browsers (even with advanced compilation)
+- Provides a secure alternative to `eval` with fine-grained control over allowed operations
+- Supports most Clojure features: persistent data structures, macros, namespaces, dynamic vars
+- Powers many popular Clojure tools including Babashka, nbb, Clerk, and Portal
+- Mature, well-maintained project with extensive documentation and community adoption
 
 ### [jank](https://jank-lang.org/)
 
