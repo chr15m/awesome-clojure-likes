@@ -51,6 +51,22 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Support building small TUI apps using Reagent.
 - Complement babashka with libraries from the Node.js ecosystem.
 
+### [Janet](https://janet-lang.org/)
+
+> A functional and imperative programming language for scripting, embedding, and system programming with Lisp-like syntax.
+
+- [Source code](https://github.com/janet-lang/janet).
+- [Documentation](https://janet-lang.org/docs/index.html).
+- [Try it](https://janet-lang.org).
+- Lightweight and embeddable (single C file).
+- 600+ functions in core library.
+- PEG grammar engine for robust text processing.
+- First-class macros and closures.
+- Garbage collection.
+- Built-in networking, threading, and file system functions.
+- C FFI for native extensions.
+- Erlang-style supervision trees.
+
 ### [Basilisp](https://github.com/basilisp-lang/basilisp)
 
 > A Lisp dialect with Clojure syntax for Python.
