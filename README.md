@@ -41,16 +41,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Task runner.
 - Libraries & "pods".
 
-### [nbb](https://github.com/babashka/nbb)
-
-> Ad-hoc CLJS scripting on Node.js. Nbb's main goal is to make it easy to get started with ad hoc CLJS scripting on Node.js.
-
-- Fast startup without relying on a custom version of Node.js.
-- Small artifact (current size is around 1.2MB).
-- First class macros.
-- Support building small TUI apps using Reagent.
-- Complement babashka with libraries from the Node.js ecosystem.
-
 ### [Janet](https://janet-lang.org/)
 
 > A functional and imperative programming language for scripting, embedding, and system programming with Lisp-like syntax.
@@ -66,6 +56,30 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Built-in networking, threading, and file system functions.
 - C FFI for native extensions.
 - Erlang-style supervision trees.
+
+### [Fennel](https://fennel-lang.org)
+
+> Lua Lisp Language.
+
+- [Try it](https://fennel-lang.org/main).
+- [Source code](https://github.com/bakpakin/Fennel).
+- [Documentation](https://fennel-lang.org/reference).
+- [Learning Fennel from Clojure](https://fennel-lang.org/from-clojure).
+- Full Lua compatibility.
+- Zero overhead.
+- Compile-time macros.
+- Embeddable.
+- Quite popular in [game development](https://itch.io/games/tag-fennel).
+
+### [nbb](https://github.com/babashka/nbb)
+
+> Ad-hoc CLJS scripting on Node.js. Nbb's main goal is to make it easy to get started with ad hoc CLJS scripting on Node.js.
+
+- Fast startup without relying on a custom version of Node.js.
+- Small artifact (current size is around 1.2MB).
+- First class macros.
+- Support building small TUI apps using Reagent.
+- Complement babashka with libraries from the Node.js ecosystem.
 
 ### [Basilisp](https://github.com/basilisp-lang/basilisp)
 
@@ -109,20 +123,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - High perfomance, real-time economic transaction processing.
 - Content-addressable immutable data structures with orthogonal persistence and cryptographic verification.
 - Supported by the non-profit Convex Foundation
-
-### [Fennel](https://fennel-lang.org)
-
-> Lua Lisp Language.
-
-- [Try it](https://fennel-lang.org/main).
-- [Source code](https://github.com/bakpakin/Fennel).
-- [Documentation](https://fennel-lang.org/reference).
-- [Learning Fennel from Clojure](https://fennel-lang.org/from-clojure).
-- Full Lua compatibility.
-- Zero overhead.
-- Compile-time macros.
-- Embeddable.
-- Quite popular in [game development](https://itch.io/games/tag-fennel).
 
 ### [Lux](https://github.com/LuxLang/lux)
 
