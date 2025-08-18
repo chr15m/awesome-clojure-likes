@@ -15,7 +15,7 @@ Basically if it looks and smells like Clojure then it's a candidate for inclusio
 
 ### Submission template
 
-	## [Language name](http://link-to-language-site/)
+	### [Language name](http://link-to-language-site/)
 	
 	> Language tagline from website.
 	
