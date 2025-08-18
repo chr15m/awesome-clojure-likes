@@ -111,6 +111,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Provide all Erlang abstractions and toolset.
 - Include a default OTP library in Clojerl.
 
+## [ClojureDart](https://github.com/Tensegritics/ClojureDart)
+
+> ClojureDart is a Clojure dialect to make native mobile and desktop apps using Flutter and the Dart ecosystem.
+
+ * Utilize Dart and Flutter ecosystem with full interopability.
+ * Develop cross-platform user interfaces.
+ * Short path from Clojure to native binaries (iOS, Android, MacOS, Linux, Windows).
+ * Develop web applications by compiling to JavaScript.
+ * Production-ready: applications are being built with it.
+
 ### [Small Clojure Interpreter (SCI)](https://github.com/babashka/sci)
 
 > A complete implementation of Clojure in Clojure for secure, sandboxed code evaluation.
