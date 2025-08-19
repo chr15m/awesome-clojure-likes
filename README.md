@@ -218,7 +218,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 > A Clojure-inspired lisp for decentralised economic systems
 
-- [Try it]((https://docs.convex.world/docs/tools/convex-repl).
+- [Try it](https://docs.convex.world/docs/tools/convex-repl).
 - [Source code](https://github.com/Convex-Dev/convex).
 - [Community Discord](https://discord.com/invite/xfYGq4CT7v).
 - Core language and syntax is (almost) identical to Clojure.
