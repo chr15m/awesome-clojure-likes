@@ -132,6 +132,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Support building small TUI apps using Reagent.
 - Complement babashka with libraries from the Node.js ecosystem.
 
+### [Glojure](https://github.com/glojurelang/glojure)
+
+> Glojure is an interpreter for Clojure, hosted on Go. Glojure provides easy access to Go libraries, similar to how Clojure provides easy access to Java frameworks.
+
+ * [Try it](https://glojurelang.github.io/glojure/)
+ * A "hosted" language on Go, with seamless interop for Go values.
+ * Can be embedded within Go applications for scripting.
+ * Provides a REPL and can run standalone scripts.
+ * In early development.
+
 ### [Cloture](https://github.com/ruricolist/cloture)
 
 > An implementation of Clojure in Common Lisp.
