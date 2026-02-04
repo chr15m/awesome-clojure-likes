@@ -142,6 +142,28 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 - Support building small TUI apps using Reagent.
 - Complement babashka with libraries from the Node.js ecosystem.
 
+### [Squint](https://github.com/squint-cljs/squint)
+
+> Light-weight ClojureScript but using Javascript's built-in data structures. 
+
+- [Try it](https://squint-cljs.github.io/squint/).
+- Keywords are translated into strings, 
+- Maps,seqs, and vectors are represented as arrays
+- Standard library functions never mutate arguments if the CLJS counterpart do not do so.
+- Most functions return arrays, objects or Symbol.iterator, not custom data structures
+- Functions like map, filter, etc. produce lazy iterable values but their results are not cached. 
+
+### [Cherry](https://github.com/squint-cljs/cherry)
+
+> __Experimental__ ClojureScript to ES6 module compiler.  Reducing friction between ClojureScript and JS tooling.
+
+- [Try it](https://livecodes.io/?template=clojurescript).
+- Compile `.cljs` files on the fly into ES6-compatible `.mjs` files.
+- Macro support
+- REPL support
+- Async/await support.
+- No dependency on Google Closure
+
 ### [Glojure](https://github.com/glojurelang/glojure)
 
 > Glojure is an interpreter for Clojure, hosted on Go. Glojure provides easy access to Go libraries, similar to how Clojure provides easy access to Java frameworks.
