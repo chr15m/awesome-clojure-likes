@@ -2,6 +2,8 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
 [Contribute](./contributing.md). [More](./more.md).
 
+See these other useful lists: [clojure-dialect-docs](https://github.com/clj-easy/clojure-dialects-docs) & [Clojure-like list](https://github.com/ilevd/clojure-like)
+
 ## Official variants
 
 - [Clojure](https://clojure.org/) on the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine).
