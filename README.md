@@ -249,6 +249,18 @@ See these other useful lists: [clojure-dialect-docs](https://github.com/clj-easy
 - Experimental support for try/catch/finally with exception suppression.
 - GMP-backed numeric tower with arbitrary precision integers.
 
+### [let-go](https://github.com/nooga/let-go)
+
+> A bytecode compiler and VM for a Clojure dialect, hosted on Go.
+
+- [Source code](https://github.com/nooga/let-go).
+- Fast startup (~7ms cold start) and small footprint (~10MB binary, ~14MB idle RSS).
+- Bytecode VM with a custom precompiled bytecode format (LGB).
+- Compile to standalone single-file binaries (`lg -b`) or self-contained WASM web pages with xterm.js (`lg -w`).
+- Two-way Go interop: embed let-go in Go apps, map Go structs to records, call Go functions from let-go and vice versa.
+- Broad Clojure compatibility: macros, destructuring, protocols, records, multimethods, transducers, lazy seqs, persistent (HAMT) data structures, BigInts.
+- Batteries included: core.async, HTTP server/client, JSON, Transit, Babashka pods, nREPL server.
+
 ### [JO Clojure](https://github.com/Zelex/jo_clojure)
 
 > A fast, embeddable Clojure-like language implementation in C/C++.
