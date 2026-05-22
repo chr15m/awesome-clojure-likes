@@ -395,6 +395,18 @@ See these other useful lists: [clojure-dialect-docs](https://github.com/clj-easy
 - Implemented in Ruby.
 - Dormant project.
 
+### [Piglet](https://github.com/piglet-lang/piglet)
+
+> LISP for the JavaScript Age
+
+- Clojure-inspired LISP written in modern JS (ES6)
+- Runs from source, no build required
+- Clojure-like architecture with reader, compiler, etc available at runtime
+- Supports any ES6 compatible runtime, including browsers and Node.js
+- RDF-style fully qualified identifiers both for code and data
+- Interactive programming facilities
+- Excellent and extensive JS interop, in both directions
+
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
 > Mal is a Clojure inspired Lisp interpreter. Mal is **implemented in >60 languages**.
