@@ -261,6 +261,17 @@ See these other useful lists: [clojure-dialect-docs](https://github.com/clj-easy
 - Broad Clojure compatibility: macros, destructuring, protocols, records, multimethods, transducers, lazy seqs, persistent (HAMT) data structures, BigInts.
 - Batteries included: core.async, HTTP server/client, JSON, Transit, Babashka pods, nREPL server.
 
+### [cljgo](https://github.com/muthuishere/cljgo)
+
+> Clojure hosted on Go: a compiler that AOT-emits plain Go source, plus a tree-walk evaluator for the REPL and macro engine — the same source runs interpreted at the prompt and compiles to a single static native binary.
+
+- [Documentation](https://muthuishere.github.io/cljgo/).
+- [Source code](https://github.com/muthuishere/cljgo).
+- Universal interop: any Go module importable and callable with zero bindings.
+- Full REPL-driven development: live re-`def`, `defmacro` at the prompt, nREPL for CIDER/Calva.
+- Single-file deployment: `cljgo build` produces one static binary (7.1 MB for hello, ~5ms startup), no JVM, no runtime install.
+- Byte-identical output between the interpreted and compiled paths.
+
 ### [JO Clojure](https://github.com/Zelex/jo_clojure)
 
 > A fast, embeddable Clojure-like language implementation in C/C++.
